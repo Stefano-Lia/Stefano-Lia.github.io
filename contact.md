@@ -1,10 +1,11 @@
 ---
 title: Contact
 layout: single
-feature_image: "/assets/Portrait.jpg"
-excerpt: "contact - name"
-aside: true
 ---
+
+<div style="float: right; margin-left: 20px;">
+  <img src="/assets/Portrait.jpg" alt="Your Name" width="200" />
+</div>
 
 ## Email  
 mario.rossi(at)universita(dot)se  
