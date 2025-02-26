@@ -39,6 +39,12 @@ layout: default
         </header>
       {% endunless %}
 
+    {% if page.feature_image %}
+      <div class="feature-image">
+      <img src="{{ page.feature_image }}" alt="{{ page.title }}" style="float: right; max-width: 300px; margin-left: 20px;">
+      </div>
+    {% endif %}
+
       <section class="page__content" itemprop="text">
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
