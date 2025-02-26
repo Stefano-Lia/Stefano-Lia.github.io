@@ -39,21 +39,6 @@ layout: default
         </header>
       {% endunless %}
 
-    {% if page.feature_image %}
-      <div class="flex-container">
-      <div class="text-content" style="flex: 1;">
-        {{ content }}
-      </div>
-      <div class="feature-image" style="flex: 0 0 auto; max-width: 300px; margin-left: 20px;">
-        <img src="{{ page.feature_image }}" alt="{{ page.title }}" style="max-width: 100%;">
-      </div>
-      </div>
-    {% else %}
-      <section class="page__content" itemprop="text">
-        {{ content }}
-      </section>
-    {% endif %}
-
       <section class="page__content" itemprop="text">
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
