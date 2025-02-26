@@ -3,14 +3,12 @@ title: Contact
 layout: single
 ---
 
-# Contact
-
-## Email  
+# Email  
 mario.rossi(at)universita(dot)se  
 
-## Adress
+# Adress
 University's adress
 
-## Social Media  
+# Social Media  
 - [GitHub](https://github.com/yourusername)  
 - [LinkedIn](https://www.linkedin.com/in/yourname/)  
