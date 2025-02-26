@@ -40,9 +40,18 @@ layout: default
       {% endunless %}
 
     {% if page.feature_image %}
-      <div class="feature-image">
-      <img src="{{ page.feature_image }}" alt="{{ page.title }}" style="float: right; max-width: 300px; margin-left: 20px;">
+      <div class="flex-container">
+      <div class="text-content" style="flex: 1;">
+        {{ content }}
       </div>
+      <div class="feature-image" style="flex: 0 0 auto; max-width: 300px; margin-left: 20px;">
+        <img src="{{ page.feature_image }}" alt="{{ page.title }}" style="max-width: 100%;">
+      </div>
+      </div>
+    {% else %}
+      <section class="page__content" itemprop="text">
+        {{ content }}
+      </section>
     {% endif %}
 
       <section class="page__content" itemprop="text">
