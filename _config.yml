@@ -121,7 +121,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "mario.rossi(at)universita(dot)se"
+      # url: "mario.rossi(at)universita(dot)se"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
